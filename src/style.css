@@ -1,0 +1,77 @@
+body {
+ font-family: Verdana;
+}
+
+h1 {
+ margin: 0px 0px 10px 0px;
+}
+
+hr {
+ border: 1px dashed #BBBBBB;
+}
+
+input[type="file"] {
+ display: none;
+}
+
+#form {
+ margin: 0 auto;
+ max-width: 768px;
+ border: 1px solid #999999;
+ border-radius: 10px;
+ padding: 10px;
+}
+
+.center {
+ text-align: center;
+}
+
+.filename {
+ font-weight: bold;
+ font-size: x-large;
+}
+
+.progress {
+ padding-top: 5px;
+ padding-bottom: 5px;
+ display: flex;
+ align-items: center;
+}
+
+.progress-bar {
+ width: 300px;
+ max-width: 300px;
+ border-radius: 10px;
+ background-color: #EEEEEE;
+ border: 1px solid #888888;
+ min-height: 20px;
+ padding: 3px;
+}
+
+.progress-state {
+ border-radius: 5px;
+ background-color: #0074E8;
+ color: #FFFFFF;
+ font-weight: bold;
+ text-align: center;
+}
+
+.percent {
+ margin-left: 5px;
+}
+
+.button {
+ display: inline-block;
+ font-size: small;
+ border: 1px solid #DDDDDD;
+ cursor: pointer;
+ font-weight: bold;
+ padding: 10px;
+ border-radius: 10px;
+ background-color: #0074E8;
+ color: #FFFFFF;
+}
+
+.status {
+ font-weight: bold;
+}
